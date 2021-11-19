@@ -1,0 +1,46 @@
+<div>
+    <h3>{{message}}</h3>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-sm-12 col-xs-12" >
+            <h4 class="mt-4 mb-4">Registration Form</h4>
+                <form>
+                    <fieldset>
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" name="username"  id="username" class ="form-control" 
+                            placeholder="Enter your username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="username">Firstname</label>
+                            <input type="text" name="firstname"  id="firstname" class ="form-control" 
+                            placeholder="Enter your firstname" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="username">Lastname</label>
+                            <input type="text" name="lastname"  id="lastname" class ="form-control" 
+                            placeholder="Enter your lastname" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="username">Age</label>
+                            <input type="text" name="age"  id="age" class ="form-control" 
+                            placeholder="Enter your age" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="username">City</label>
+                            <input type="text" name="city"  id="city" class ="form-control"
+                            placeholder="Enter your city" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="username">Password</label>
+                            <input type="text" name="password"  id="password" class ="form-control"
+                            placeholder="Enter your password" required>
+                        </div>
+                        <div class="for-group">
+                            <input  class="btn btn-success" type="submit" name="submit" value="register" (click)="registerNow()">
+                        </div>
+                    </fieldset>
+                </form>
+    </div>
+</div>
